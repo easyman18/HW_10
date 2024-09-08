@@ -1,0 +1,33 @@
+    1  git config --global user.name "Olexii Lytvynchuk"
+    2  git config --global user.email lyosha.litvin4uk@gmail.com
+    3  git clone https://github.com/easyman18/HW_10.git
+    4  cd HM_10
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  vim .gitignore
+    8  git status 
+    9  git add text_ignore.txt
+   10  git status
+   11  git add .gitignore
+   12  git status
+   13  git commit -m "Task 1. Робота з .gitignore"
+   14  cd HW_10
+   15  touch main_test.txt
+   16  git add main_test.txt
+   17  [200~git commit -m "Ваш коментар"
+   18  git commit -m "Task 2. Створення комітів"
+   19  git checkout -b develop
+   20  touch develop_test.txt
+   21  git add develop_test.txt
+   22  git status
+   23  git commit -m "Task 3. Робота в іншій гілці1"
+   24  vim develop_test.txt
+   25  git status
+   26  git add develop_test.txt
+   27  git status
+   28  git commit -m "Task 3. Робота в іншій гілці2"
+   29  git checkout main
+   30  git merge develop
+   31  git log
+   32  history > command_list.csv
+   33  history > command_list.csv
